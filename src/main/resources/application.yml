@@ -40,3 +40,6 @@ management:
         health:
             probes:
                 enabled: true
+    micrometer:
+        tags:
+            application: ${spring.application.name}
